@@ -1,4 +1,4 @@
-# VaccineChallengePublic
+# VaccineChallenge
 this code use great circle distance for calculating the distance
 This file explains how to use the program for
 "COVID-19 Vaccinaion Challenge"
