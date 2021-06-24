@@ -15,16 +15,24 @@ namespace VaccineChallenge
 
             if (args.Length == 0)
             {
-                PersonJsonFilename = AppDomain.CurrentDomain.BaseDirectory + @"\people.txt";
-                CentersJsonFilename = AppDomain.CurrentDomain.BaseDirectory + @"\centers.txt";
+                PersonJsonFilename = AppDomain.CurrentDomain.BaseDirectory + "people.txt";
+                CentersJsonFilename = AppDomain.CurrentDomain.BaseDirectory + "centers.txt";
             }
             else
-            { if (args.Length == 1)
-                    PersonJsonFilename = AppDomain.CurrentDomain.BaseDirectory + @"\" + args[0];
+            {
+                if (args.Length > 1)
+                {
+                    PersonJsonFilename = AppDomain.CurrentDomain.BaseDirectory + args[0];
+                    CentersJsonFilename = AppDomain.CurrentDomain.BaseDirectory + args[1];
+                }
                 else
-                    CentersJsonFilename = AppDomain.CurrentDomain.BaseDirectory + @"\" + args[1];
+                {
+                    Console.WriteLine("Arguments is missing, Please provide data files");
+                    return;
+                }
             }
-           
+
+
             Console.WriteLine("-Begin read the file :" + PersonJsonFilename);
             List<Person> personsList = LoadPersonsDataFromJson(PersonJsonFilename);
             Console.WriteLine("-Loading Completed with total of " + personsList.Count + " Persons");
