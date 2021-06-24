@@ -35,7 +35,7 @@ For Example (Vaccine Centers) :
 		  VaccineChallenge FILE_NAME_FOR_INDIVIDUALS FILE_NAME_FOR_CENTERS   
                   
 		For example :
-			(to run for the file named "allPersonsData.txt" and "allCentersData.txt")
+			(to run for the file which named as "allPersonsData.txt" for individuals data and "allCentersData.txt" for vaccine centers)
                   	Command:   VaccineChallenge allPersonsData.txt allCentersData.txt
 
 
