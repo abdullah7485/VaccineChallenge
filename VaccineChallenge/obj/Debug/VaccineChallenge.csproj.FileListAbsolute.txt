@@ -16,3 +16,13 @@ C:\Users\Ismail\Desktop\VaccineChallenge_4\VaccineChallenge\obj\Debug\VaccineCha
 C:\Users\Ismail\Desktop\VaccineChallenge_4\VaccineChallenge\obj\Debug\VaccineChallenge.exe
 C:\Users\Ismail\Desktop\VaccineChallenge_4\VaccineChallenge\obj\Debug\VaccineChallenge.pdb
 C:\Users\Ismail\Desktop\VaccineChallenge_4\VaccineChallenge\obj\Debug\VaccineChallenge.csprojAssemblyReference.cache
+F:\Work\Git\VaccineChallenge\VaccineChallenge\bin\Debug\VaccineChallenge.exe.config
+F:\Work\Git\VaccineChallenge\VaccineChallenge\bin\Debug\VaccineChallenge.exe
+F:\Work\Git\VaccineChallenge\VaccineChallenge\bin\Debug\VaccineChallenge.pdb
+F:\Work\Git\VaccineChallenge\VaccineChallenge\bin\Debug\Newtonsoft.Json.dll
+F:\Work\Git\VaccineChallenge\VaccineChallenge\bin\Debug\Newtonsoft.Json.xml
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Debug\VaccineChallenge.csprojAssemblyReference.cache
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Debug\VaccineChallenge.csproj.CoreCompileInputs.cache
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Debug\VaccineChallenge.csproj.CopyComplete
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Debug\VaccineChallenge.exe
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Debug\VaccineChallenge.pdb

@@ -26,7 +26,6 @@ F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\Microsoft.VisualS
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\VaccineChallenge.exe
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\Newtonsoft.Json.dll
-F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\VaccineChallenge.pdb
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\VaccineChallenge.exe.config
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
@@ -36,3 +35,4 @@ F:\Work\Git\VaccineChallenge\VaccineChallengeTests\obj\Release\VaccineChallengeT
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\obj\Release\VaccineChallengeTests.csproj.CopyComplete
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\obj\Release\VaccineChallengeTests.dll
 F:\Work\Git\VaccineChallenge\VaccineChallengeTests\obj\Release\VaccineChallengeTests.pdb
+F:\Work\Git\VaccineChallenge\VaccineChallengeTests\bin\Release\VaccineChallenge.pdb
