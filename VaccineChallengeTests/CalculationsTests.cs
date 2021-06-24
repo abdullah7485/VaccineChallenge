@@ -37,18 +37,7 @@ namespace VaccineChallengeTests
             Assert.AreEqual(center, "Center 1");
         }
 
-        [TestMethod]
-        public void GetNearestCenter_TotalNumberOfPersons_ShouldReturnThatCenter()
-        {
-            var centers = new List<VaccineCenter>() {
-                new VaccineCenter() { Name = "Center 1", Latitude = "100.5", Longitude = "120.5" } ,
-                new VaccineCenter() { Name = "Center 2", Latitude = "200.5", Longitude = "120.5" },
-                new VaccineCenter() { Name = "Center 3", Latitude = "300.5", Longitude = "120.5" }};
-
-            var center = Calculations.GetNearestCenter(100.5, 120.5, centers);
-
-            Assert.AreEqual(center, "Center 1");
-        }
+        
 
     }
 }
