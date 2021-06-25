@@ -66,21 +66,30 @@ namespace VaccineChallenge
         static List<VaccineCenter> LoadCentersDataFromJson(string JsonFilePath)
         {
             List<VaccineCenter> centersList = new List<VaccineCenter>();
-            if (File.Exists(JsonFilePath))
+            try
             {
-                System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                using (StreamReader sr = new StreamReader(JsonFilePath))
+                if (File.Exists(JsonFilePath))
                 {
-                    sb.Append(sr.ReadToEnd());
+                    System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                    using (StreamReader sr = new StreamReader(JsonFilePath))
+                    {
+                        sb.Append(sr.ReadToEnd());
+                    }
+                    centersList = JsonConvert.DeserializeObject<List<VaccineCenter>>(sb.ToString());
+                    GC.Collect();
                 }
-                centersList = JsonConvert.DeserializeObject<List<VaccineCenter>>(sb.ToString());
-                GC.Collect();
+                else
+                {
+                    Console.WriteLine("Vaccine Centers File Is not Found in Path:" + JsonFilePath);
+                }
+                return centersList;
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Vaccine Centers File Is not Found in Path:" + JsonFilePath);
+                Console.WriteLine("Vaccine Centers File Format is invalid");
+                //
+                return centersList;
             }
-            return centersList;
         }
 
         /// <summary>
@@ -91,21 +100,32 @@ namespace VaccineChallenge
         public static List<Person> LoadPersonsDataFromJson(string JsonFilePath)
         {
             List<Person> personsList = new List<Person>();
-            if (File.Exists(JsonFilePath))
+
+            try
             {
-                System.Text.StringBuilder sb = new System.Text.StringBuilder();
-                using (StreamReader sr = new StreamReader(JsonFilePath))
+                if (File.Exists(JsonFilePath))
                 {
-                    sb.Append(sr.ReadToEnd());
+                    System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                    using (StreamReader sr = new StreamReader(JsonFilePath))
+                    {
+                        sb.Append(sr.ReadToEnd());
+                    }
+                    personsList = JsonConvert.DeserializeObject<List<Person>>(sb.ToString());
+                    GC.Collect();
                 }
-                personsList = JsonConvert.DeserializeObject<List<Person>>(sb.ToString());
-                GC.Collect();
+                else
+                {
+                    Console.WriteLine("Persons Data File Is not Found in Path:" + JsonFilePath);
+                }
+
+                return personsList;
             }
-            else
+            catch (Exception ex)
             {
-                Console.WriteLine("Persons Data File Is not Found in Path:" + JsonFilePath);
+                Console.WriteLine("Persons Data File Format is invalid");
+                //
+                return personsList;
             }
-            return personsList;
         }
 
         /// <summary>

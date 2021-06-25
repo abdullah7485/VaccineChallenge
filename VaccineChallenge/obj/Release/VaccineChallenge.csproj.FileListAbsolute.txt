@@ -16,3 +16,4 @@ F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Release\VaccineChallenge.cspro
 F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Release\VaccineChallenge.csproj.CopyComplete
 F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Release\VaccineChallenge.exe
 F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Release\VaccineChallenge.pdb
+F:\Work\Git\VaccineChallenge\VaccineChallenge\obj\Release\VaccineChallenge.csprojAssemblyReference.cache
